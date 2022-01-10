@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <h1 id="title">Survey Form</h1>
+    <p id="description">improve our site and forms</p>
+    <form id="survey-form">
+      <label id = "name-label"
+      for name = "name">Name</label><br>
+      <input type="text" id="name"
+      placeholder="enter your name" required><br><br>
+      <label id = "email-label"
+      for name = "email">Email</label><br>
+      <input type="email" id="email"
+      placeholder="enter your email" required><br><br>
+      <label for="number" id="number-label">Age</label>
+    <br>
+    <input type="number" id="number" placeholder="Age" 
+    min="10" max="99"
+    required >
+    <div class="form_group">
+      <p>Choose from list!</p>
+      <select id="dropdown" required>
+        <option disabled selected value>Select a dog</option>
+        <option value="pitbull">pitbull</option>
+        <option value="Husky">Husky</option>
+        <option value="other">Other</option>
+        </select>
+    </div>
+    <div class="form-group">
+      <p>Would you in to our page?</p>
+      <label>
+        <input
+          name="user-recommend"
+          value="yes"
+          type="radio"
+          checked
+        />Yes</label><br>
+      <label>
+        <input
+          name="user-recommend"
+          value="no"
+          type="radio"
+        />No</label><br>
+
+      <label
+        ><input
+          name="user-recommend"
+          value="maybe"
+          type="radio"
+        />Maybe</label><br>
+    </div><br>
+   <select id="dropdown" required>
+      <option disabled selected value>Select the six</option>
+      <option value="male">Male</option>
+      <option value="female">female</option>
+      <option value="other">Other</option>
+      </select>
+    <div class="form-colorDog">
+      <p>Would you in to our page?</p>
+      <label>
+        <input
+          name="color-dog"
+          value="yes"
+          type="checkbox"
+          checked
+        />White</label
+      ><br>
+      <label>
+        <input
+          name="color-dog"
+          value="no"
+          type="checkbox"
+        />Black</label
+      ><br>
+
+      <label
+        ><input
+          name="color-dog"
+          value="maybe"
+          type="checkbox"
+        />Golden</label
+      > <br>
+    </div>
+    <div class="form-group">
+      <p>suggestions?</p> <br>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your suggestions here..."></textarea> 
+    </div>
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">Submit</button>
+    </div>
+
+      </form>
+
+      
+    <script  src="js/index.js"></script>
+  </body>
+</html>
